@@ -18,11 +18,11 @@
 
 ## 进度
 
-- [ ] 正式访谈 INT-01（记录进 `chat.txt` 第一部分）
-- [ ] 跟进沟通 INT-02
-- [ ] AI 生成初稿 → 写入 `requirements.md` → 提交 → 打标签 `lab1-ai-draft`
-- [ ] 人工审查（≥3 条 REV，写入 `chat.txt` 第三部分）并修改 `requirements.md`
-- [ ] 终验：≥15 条已确认需求（功能 ≥10、非功能 ≥3）、≥5 条覆盖异常/边界/冲突
+- [x] 正式访谈 INT-01（记录进 `chat.txt` 第一部分）
+- [x] 跟进沟通 INT-02
+- [x] AI 生成初稿 → 写入 `requirements.md` → 提交 → 打标签 `lab1-ai-draft`
+- [x] 人工审查（10 条 REV，写入 `chat.txt` 第三部分）并修改 `requirements.md`
+- [x] 终验：31 条已确认需求（功能 23、非功能 7、约束 1）、≥5 条覆盖异常/边界/冲突
 - [ ] 提交 → 打标签 `lab1-final`（此后不得移动/删除/覆盖）
 - [ ] 写 `report.pdf`，填入两个标签对应的完整 commit hash
 - [ ] 打包 `实验1_251220053_孙浩原.zip`（仅含 report.pdf、requirements.md、chat.txt）
