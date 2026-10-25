@@ -1,6 +1,6 @@
 # 多人共享记账系统需求整理
 
-仓库地址：https://github.com/bukejiegg/se-lab1-requirements
+仓库地址：https://github.com/bukejiegg/2026-se-lab
 
 版本：v0.1（骨架，待填充 AI 初稿）　日期：2026-10-25
 
