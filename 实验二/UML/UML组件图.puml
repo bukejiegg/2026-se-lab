@@ -1,0 +1,25 @@
+@startuml
+title UML组件图（AI 初稿）
+component "浏览器" as UI
+component "账号" as A
+component "账本" as B
+component "收支记录" as R
+component "统计与预算" as P
+component "结算" as S
+component "操作日志" as L
+database "关系数据库" as DB
+UI --> A
+UI --> B
+UI --> R
+UI --> P
+UI --> S
+UI --> L
+P --> R
+S --> R
+R --> L
+L --> DB
+B --> DB
+R --> DB
+S --> DB
+@enduml
+
