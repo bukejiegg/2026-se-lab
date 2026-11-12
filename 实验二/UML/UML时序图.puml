@@ -11,6 +11,7 @@ title UML 时序图｜结算锁、快照与重试
 actor 所有者 as O
 actor 普通成员 as M
 participant 网页 as UI
+participant "浏览器草稿" as Local
 participant 结算服务 as S
 participant 记录服务 as R
 database PostgreSQL as DB
@@ -28,7 +29,15 @@ else 首次受理
   R -> DB : 检查幂等结果和账本锁
   DB --> R : 首次提交，账本正在结算
   R --> UI : 暂不可提交
-  UI --> M : 提示并保留表单与提交键
+  UI -> Local : 按账号与账本暂存表单与提交键
+  Local --> UI : 暂存成功
+  UI --> M : 提示已暂存到此浏览器
+  opt 刷新后重新打开同一账号和账本的表单
+    M -> UI : 打开新增记录
+    UI -> Local : 读取该账号与账本的草稿
+    Local --> UI : 返回表单与提交键
+    UI --> M : 恢复输入
+  end
   S -> DB : 读取已审核分录及已封账净额
   S -> S : 计算本期差额与转账建议
   alt 计算成功且仍持有该任务的锁
@@ -44,5 +53,7 @@ else 首次受理
   UI -> R : 沿用原表单与提交键
   R -> DB : 原子保存记录、日志和幂等结果
   R --> UI : 返回成功或已保存的结果
+  UI -> Local : 清除已提交的草稿
+  UI --> M : 显示提交成功
 end
 @enduml

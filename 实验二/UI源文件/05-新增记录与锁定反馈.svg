@@ -42,9 +42,9 @@
 <text x="523" y="390" text-anchor="start" font-size="14" font-weight="400" fill="#18342D">公共用品</text>
 <rect x="246" y="429" width="510" height="57" rx="8" fill="#FFF0D8" stroke="none"/>
 <text x="259" y="452" text-anchor="start" font-size="14" font-weight="700" fill="#855312">正在结算，暂时无法提交</text>
-<text x="259" y="473" text-anchor="start" font-size="12" font-weight="400" fill="#855312">已保留填写内容，结算结束后可再次提交。</text>
-<rect x="246" y="553" width="117" height="36" rx="8" fill="#FFFFFF" stroke="#DCE7DF"/>
-<text x="304.5" y="576" text-anchor="middle" font-size="13" font-weight="700" fill="#11634E">保存草稿</text>
+<text x="259" y="473" text-anchor="start" font-size="12" font-weight="400" fill="#855312">已暂存到此浏览器。刷新后可恢复，换设备无法查看。</text>
+<rect x="246" y="553" width="158" height="36" rx="8" fill="#FFFFFF" stroke="#DCE7DF"/>
+<text x="325" y="576" text-anchor="middle" font-size="13" font-weight="700" fill="#11634E">暂存到此浏览器</text>
 <rect x="626" y="553" width="130" height="36" rx="8" fill="#E3ECE6" stroke="none"/>
 <text x="691" y="576" text-anchor="middle" font-size="13" font-weight="700" fill="#52685F">提交审核</text>
 <rect x="800" y="148" width="292" height="472" rx="12" fill="#FFFFFF" stroke="#DCE7DF"/>
