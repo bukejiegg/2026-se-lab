@@ -1,0 +1,94 @@
+@startuml
+skinparam defaultFontName Microsoft YaHei
+skinparam defaultFontSize 15
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam ArrowColor #365C5C
+skinparam titleFontColor #142C2B
+skinparam packageStyle rectangle
+skinparam roundcorner 10
+title UML 类图｜领域对象与主要约束
+hide circle
+skinparam classBackgroundColor #EBF5F1
+skinparam classAttributeIconSize 0
+skinparam classBorderColor #799995
+class "账号" as User {
+  email
+  passwordHash
+  platformRole
+}
+class "成员关系" as Member {
+  role
+  status
+  exitedAt
+}
+class "账本" as Book {
+  name
+  status
+  settlementJobId
+  deleteAfter
+  + transferOwner(member)
+}
+class "邀请链接" as Invite {
+  tokenHash
+  expiresAt
+  acceptedCount
+  revokedAt
+}
+class "收支记录" as Entry {
+  type, amountCents, occurredAt
+  state, version, reason
+  + submit(role)
+  + withdraw()
+  + review(decision, reason)
+  + void(reason)
+}
+class "类别" as Category {
+  name
+  enabled
+}
+class "分摊明细" as Share {
+  amountCents
+}
+class "预算" as Budget {
+  month
+  categoryId（可空）
+  limitCents
+}
+class "结算快照" as Snap {
+  sequenceNo
+  createdAt
+}
+class "快照分录" as Posting {
+  entryId, entryVersion
+  memberId, deltaCents
+}
+class "转账建议" as Transfer {
+  fromMemberId, toMemberId
+  amountCents
+}
+class "操作日志" as Audit {
+  actorId, occurredAt
+  action, before, after
+}
+User "1" -- "0..*" Member
+Book "1" *-- "1..*" Member
+Book "1" *-- "0..*" Invite
+Book "1" *-- "0..*" Entry
+Book "1" *-- "0..*" Category
+Book "1" *-- "0..*" Budget
+Book "1" *-- "0..*" Snap
+Book "1" *-- "0..*" Audit
+Entry "0..*" --> "1" Member : 创建人
+Entry "0..*" --> "1" Member : 付款人／收款人
+Entry "0..*" --> "1" Category
+Entry "1" *-- "0..*" Share
+Share "0..*" --> "1" Member
+Entry "0..*" --> "0..1" Entry : 更正来源
+Snap "1" *-- "0..*" Posting
+Snap "1" *-- "0..*" Transfer
+note bottom of Share
+  提交时至少有一项分摊；
+  分摊合计等于记录金额。
+end note
+@enduml

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1120" height="690" viewBox="0 0 1120 690">
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<rect x="0" y="0" width="1120" height="690" rx="0" fill="#F3F6F3" stroke="none"/>
+<rect x="0" y="0" width="506" height="690" rx="0" fill="#153B31" stroke="none"/>
+<rect x="55" y="54" width="34" height="34" rx="8" fill="#BCE9CC" stroke="none"/>
+<text x="72" y="77" text-anchor="middle" font-size="18" font-weight="700" fill="#153B31">合</text>
+<text x="102" y="80" text-anchor="start" font-size="25" font-weight="700" fill="#FFFFFF">合账</text>
+<text x="55" y="202" text-anchor="start" font-size="34" font-weight="700" fill="#FFFFFF">多人共享记账系统</text>
+<text x="55" y="242" text-anchor="start" font-size="16" font-weight="400" fill="#C8DED3">为宿舍、出行和日常共用开支建立账本。</text>
+<rect x="55" y="311" width="386" height="180" rx="12" fill="#205042" stroke="#36735F"/>
+<text x="76" y="344" text-anchor="start" font-size="17" font-weight="700" fill="#FFFFFF">四人宿舍账本</text>
+<text x="76" y="378" text-anchor="start" font-size="13" font-weight="400" fill="#C8DED3">本月已审核支出</text>
+<text x="76" y="423" text-anchor="start" font-size="34" font-weight="700" fill="#FFFFFF">¥1,280.00</text>
+<text x="76" y="458" text-anchor="start" font-size="13" font-weight="400" fill="#C8DED3">查看明细、共同分摊、月底结算</text>
+<rect x="552" y="108" width="512" height="468" rx="12" fill="#FFFFFF" stroke="#DCE7DF"/>
+<text x="591" y="166" text-anchor="start" font-size="30" font-weight="700" fill="#18342D">登录合账</text>
+<text x="591" y="207" text-anchor="start" font-size="15" font-weight="700" fill="#11634E">登录</text>
+<text x="651" y="207" text-anchor="start" font-size="15" font-weight="400" fill="#52685F">注册</text>
+<rect x="591" y="222" width="431" height="1" rx="0" fill="#DCE7DF" stroke="none"/>
+<text x="591" y="265" text-anchor="start" font-size="13" font-weight="700" fill="#52685F">邮箱</text>
+<rect x="591" y="275" width="431" height="39" rx="7" fill="#FFFFFF" stroke="#DCE7DF"/>
+<text x="603" y="300" text-anchor="start" font-size="14" font-weight="400" fill="#18342D">name@example.com</text>
+<text x="591" y="353" text-anchor="start" font-size="13" font-weight="700" fill="#52685F">密码</text>
+<rect x="591" y="363" width="431" height="39" rx="7" fill="#FFFFFF" stroke="#DCE7DF"/>
+<text x="603" y="388" text-anchor="start" font-size="14" font-weight="400" fill="#18342D">••••••••</text>
+<rect x="591" y="440" width="431" height="36" rx="8" fill="#11634E" stroke="none"/>
+<text x="806.5" y="463" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">登录</text>
+<text x="591" y="517" text-anchor="start" font-size="13" font-weight="400" fill="#52685F">新用户可切换到注册，注册成功后进入我的账本。</text>
+</g>
+</svg>

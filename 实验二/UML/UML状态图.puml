@@ -1,0 +1,37 @@
+@startuml
+skinparam defaultFontName Microsoft YaHei
+skinparam defaultFontSize 15
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam ArrowColor #365C5C
+skinparam titleFontColor #142C2B
+skinparam packageStyle rectangle
+skinparam roundcorner 10
+title UML 状态图｜收支记录生命周期
+skinparam stateBackgroundColor #EBF5F1
+state "草稿" as Draft
+state "待审核" as Pending
+state "已审核" as Approved
+state "已驳回" as Rejected
+state "已作废" as Voided
+[*] --> Draft : 建立草稿
+Draft --> Draft : 作者保存修改
+Draft --> [*] : 作者删除草稿
+Draft --> Pending : 普通成员提交
+Draft --> Approved : 所有者提交自己的记录
+Pending --> Draft : 作者撤回
+Pending --> Approved : 所有者通过
+Pending --> Rejected : 所有者驳回／填写原因
+Rejected --> Rejected : 作者保存修改
+Rejected --> Pending : 作者修改后重提［普通成员］
+Rejected --> Approved : 作者修改后重提［现为所有者］
+Approved --> Voided : 所有者作废／填写原因
+note right of Voided
+  作废为终态。
+  更正时创建关联的新记录。
+end note
+note bottom of Pending
+  写入时校验成员角色、版本与账本锁。
+  审核和撤回竞争时仅一次转换成功。
+end note
+@enduml

@@ -1,0 +1,48 @@
+@startuml
+skinparam defaultFontName Microsoft YaHei
+skinparam defaultFontSize 15
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam ArrowColor #365C5C
+skinparam titleFontColor #142C2B
+skinparam packageStyle rectangle
+skinparam roundcorner 10
+title UML 时序图｜结算锁、快照与重试
+actor 所有者 as O
+actor 普通成员 as M
+participant 网页 as UI
+participant 结算服务 as S
+participant 记录服务 as R
+database PostgreSQL as DB
+O -> UI : 发起结算
+UI -> S : 提交账本与请求键
+S -> DB : 校验所有者；锁定账本行
+alt 请求已有任务或结果
+  DB --> S : 原任务或原快照
+  S --> UI : 返回原进度或结果
+else 首次受理
+  S -> DB : 保存任务与结算锁，提交事务
+  S --> UI : 返回结算中
+  M -> UI : 提交记录
+  UI -> R : 发送表单与提交键
+  R -> DB : 检查幂等结果和账本锁
+  DB --> R : 首次提交，账本正在结算
+  R --> UI : 暂不可提交
+  UI --> M : 提示并保留表单与提交键
+  S -> DB : 读取已审核分录及已封账净额
+  S -> S : 计算本期差额与转账建议
+  alt 计算成功且仍持有该任务的锁
+    S -> DB : 同事务写快照、分录、日志并解锁
+    UI -> S : 查询任务进度
+    S --> UI : 可查看新快照
+  else 失败
+    S -> DB : 同事务记录失败并释放本任务的锁
+    UI -> S : 查询任务进度
+    S --> UI : 显示失败并可重新发起
+  end
+  M -> UI : 恢复后再次提交
+  UI -> R : 沿用原表单与提交键
+  R -> DB : 原子保存记录、日志和幂等结果
+  R --> UI : 返回成功或已保存的结果
+end
+@enduml

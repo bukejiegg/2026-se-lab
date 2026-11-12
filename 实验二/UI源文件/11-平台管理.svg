@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1120" height="690" viewBox="0 0 1120 690">
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<rect x="0" y="0" width="1120" height="690" rx="0" fill="#F3F6F3" stroke="none"/>
+<rect x="0" y="0" width="195" height="690" rx="0" fill="#153B31" stroke="none"/>
+<rect x="19" y="20" width="28" height="28" rx="8" fill="#BCE9CC" stroke="none"/>
+<text x="33" y="40" text-anchor="middle" font-size="15" font-weight="700" fill="#153B31">合</text>
+<text x="56" y="41" text-anchor="start" font-size="22" font-weight="700" fill="#FFFFFF">合账</text>
+<text x="20" y="93" text-anchor="start" font-size="14" font-weight="700" fill="#C8DED3">平台管理工作区</text>
+<text x="25" y="134" text-anchor="start" font-size="14" font-weight="400" fill="#C8DED3">我的账本</text>
+<text x="25" y="179" text-anchor="start" font-size="14" font-weight="400" fill="#C8DED3">收支记录</text>
+<text x="25" y="224" text-anchor="start" font-size="14" font-weight="400" fill="#C8DED3">统计与预算</text>
+<text x="25" y="269" text-anchor="start" font-size="14" font-weight="400" fill="#C8DED3">结算中心</text>
+<text x="25" y="314" text-anchor="start" font-size="14" font-weight="400" fill="#C8DED3">成员与设置</text>
+<text x="25" y="359" text-anchor="start" font-size="14" font-weight="400" fill="#C8DED3">操作日志</text>
+<text x="23" y="654" text-anchor="start" font-size="13" font-weight="400" fill="#C8DED3">平台账号  /  管理员</text>
+<text x="226" y="32" text-anchor="start" font-size="13" font-weight="400" fill="#52685F">平台管理工作区</text>
+<rect x="1005" y="14" width="57" height="24" rx="12" fill="#E2F2E9" stroke="none"/>
+<text x="1014" y="30" text-anchor="start" font-size="12" font-weight="700" fill="#11634E">管理员</text>
+<rect x="216" y="50" width="879" height="1" rx="0" fill="#DCE7DF" stroke="none"/>
+<text x="226" y="91" text-anchor="start" font-size="28" font-weight="700" fill="#18342D">平台管理</text>
+<text x="227" y="118" text-anchor="start" font-size="13" font-weight="400" fill="#52685F">账号维护及投诉访问处理。</text>
+<rect x="0" y="111" width="195" height="321" rx="0" fill="#153B31" stroke="none"/>
+<rect x="12" y="111" width="171" height="36" rx="8" fill="#275949" stroke="none"/>
+<text x="25" y="134" text-anchor="start" font-size="14" font-weight="700" fill="#FFFFFF">账号与投诉</text>
+<rect x="226" y="150" width="450" height="411" rx="12" fill="#FFFFFF" stroke="#DCE7DF"/>
+<text x="246" y="181" text-anchor="start" font-size="17" font-weight="700" fill="#18342D">账号维护</text>
+<text x="247" y="223" text-anchor="start" font-size="13" font-weight="700" fill="#52685F">搜索账号</text>
+<rect x="247" y="233" width="282" height="39" rx="7" fill="#FFFFFF" stroke="#DCE7DF"/>
+<text x="259" y="258" text-anchor="start" font-size="14" font-weight="400" fill="#18342D">按邮箱查找</text>
+<rect x="544" y="233" width="107" height="36" rx="8" fill="#FFFFFF" stroke="#DCE7DF"/>
+<text x="597.5" y="256" text-anchor="middle" font-size="13" font-weight="700" fill="#11634E">搜索</text>
+<rect x="247" y="302" width="407" height="33" rx="6" fill="#F3F6F3" stroke="none"/>
+<text x="257" y="324" text-anchor="start" font-size="12" font-weight="700" fill="#52685F">账号</text>
+<text x="471" y="324" text-anchor="start" font-size="12" font-weight="700" fill="#52685F">状态</text>
+<text x="553" y="324" text-anchor="start" font-size="12" font-weight="700" fill="#52685F">操作</text>
+<rect x="247" y="378" width="407" height="1" rx="0" fill="#DCE7DF" stroke="none"/>
+<text x="257" y="361.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">user@example.com</text>
+<rect x="471" y="344.5" width="44" height="24" rx="12" fill="#E2F2E9" stroke="none"/>
+<text x="480" y="360.5" text-anchor="start" font-size="12" font-weight="700" fill="#11634E">正常</text>
+<text x="553" y="361.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">账号详情</text>
+<rect x="693" y="150" width="399" height="411" rx="12" fill="#FFFFFF" stroke="#DCE7DF"/>
+<text x="713" y="181" text-anchor="start" font-size="17" font-weight="700" fill="#18342D">投诉访问</text>
+<text x="713" y="203" text-anchor="start" font-size="12" font-weight="400" fill="#52685F">仅处理所有者已授权的记录范围。</text>
+<text x="713" y="241" text-anchor="start" font-size="16" font-weight="700" fill="#18342D">工单 C-014  ·  账目争议</text>
+<rect x="713" y="257" width="96" height="24" rx="12" fill="#FFF0D8" stroke="none"/>
+<text x="722" y="273" text-anchor="start" font-size="12" font-weight="700" fill="#855312">待所有者同意</text>
+<text x="713" y="316" text-anchor="start" font-size="14" font-weight="400" fill="#52685F">申请范围：记录 R-018</text>
+<text x="713" y="349" text-anchor="start" font-size="14" font-weight="400" fill="#52685F">申请原因：核对投诉所涉金额</text>
+<rect x="713" y="410" width="139" height="36" rx="8" fill="#FFFFFF" stroke="#DCE7DF"/>
+<text x="782.5" y="433" text-anchor="middle" font-size="13" font-weight="700" fill="#11634E">查看授权申请</text>
+<rect x="862" y="410" width="120" height="36" rx="8" fill="#E3ECE6" stroke="none"/>
+<text x="922" y="433" text-anchor="middle" font-size="13" font-weight="700" fill="#52685F">查看记录</text>
+<text x="713" y="500" text-anchor="start" font-size="12" font-weight="400" fill="#52685F">查看及被拒绝的访问均写入日志。</text>
+</g>
+</svg>

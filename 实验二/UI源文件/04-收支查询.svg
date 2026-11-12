@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1120" height="690" viewBox="0 0 1120 690">
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<rect x="0" y="0" width="1120" height="690" rx="0" fill="#F3F6F3" stroke="none"/>
+<rect x="0" y="0" width="195" height="690" rx="0" fill="#153B31" stroke="none"/>
+<rect x="19" y="20" width="28" height="28" rx="8" fill="#BCE9CC" stroke="none"/>
+<text x="33" y="40" text-anchor="middle" font-size="15" font-weight="700" fill="#153B31">合</text>
+<text x="56" y="41" text-anchor="start" font-size="22" font-weight="700" fill="#FFFFFF">合账</text>
+<text x="20" y="93" text-anchor="start" font-size="14" font-weight="700" fill="#C8DED3">四人宿舍账本</text>
+<text x="25" y="134" text-anchor="start" font-size="14" font-weight="400" fill="#C8DED3">我的账本</text>
+<rect x="12" y="156" width="171" height="36" rx="8" fill="#275949" stroke="none"/>
+<text x="25" y="179" text-anchor="start" font-size="14" font-weight="700" fill="#FFFFFF">收支记录</text>
+<text x="25" y="224" text-anchor="start" font-size="14" font-weight="400" fill="#C8DED3">统计与预算</text>
+<text x="25" y="269" text-anchor="start" font-size="14" font-weight="400" fill="#C8DED3">结算中心</text>
+<text x="25" y="314" text-anchor="start" font-size="14" font-weight="400" fill="#C8DED3">成员与设置</text>
+<text x="25" y="359" text-anchor="start" font-size="14" font-weight="400" fill="#C8DED3">操作日志</text>
+<text x="23" y="654" text-anchor="start" font-size="13" font-weight="400" fill="#C8DED3">冯一水  /  普通成员</text>
+<text x="226" y="32" text-anchor="start" font-size="13" font-weight="400" fill="#52685F">四人宿舍账本</text>
+<rect x="1005" y="14" width="70" height="24" rx="12" fill="#E2F2E9" stroke="none"/>
+<text x="1014" y="30" text-anchor="start" font-size="12" font-weight="700" fill="#11634E">普通成员</text>
+<rect x="216" y="50" width="879" height="1" rx="0" fill="#DCE7DF" stroke="none"/>
+<text x="226" y="91" text-anchor="start" font-size="28" font-weight="700" fill="#18342D">收支记录</text>
+<text x="227" y="118" text-anchor="start" font-size="13" font-weight="400" fill="#52685F">按发生时间与金额等条件组合查询。</text>
+<rect x="967" y="73" width="126" height="36" rx="8" fill="#11634E" stroke="none"/>
+<text x="1030.0" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">＋ 新增记录</text>
+<rect x="226" y="149" width="866" height="456" rx="12" fill="#FFFFFF" stroke="#DCE7DF"/>
+<text x="245" y="179" text-anchor="start" font-size="13" font-weight="700" fill="#52685F">发生时间</text>
+<rect x="245" y="189" width="169" height="39" rx="7" fill="#FFFFFF" stroke="#DCE7DF"/>
+<text x="257" y="214" text-anchor="start" font-size="14" font-weight="400" fill="#18342D">10 月 1 日至 31 日</text>
+<text x="424" y="179" text-anchor="start" font-size="13" font-weight="700" fill="#52685F">类别</text>
+<rect x="424" y="189" width="128" height="39" rx="7" fill="#FFFFFF" stroke="#DCE7DF"/>
+<text x="436" y="214" text-anchor="start" font-size="14" font-weight="400" fill="#18342D">全部</text>
+<text x="562" y="179" text-anchor="start" font-size="13" font-weight="700" fill="#52685F">金额区间</text>
+<rect x="562" y="189" width="138" height="39" rx="7" fill="#FFFFFF" stroke="#DCE7DF"/>
+<text x="574" y="214" text-anchor="start" font-size="14" font-weight="400" fill="#18342D">0 至 500 元</text>
+<text x="710" y="179" text-anchor="start" font-size="13" font-weight="700" fill="#52685F">记录人</text>
+<rect x="710" y="189" width="111" height="39" rx="7" fill="#FFFFFF" stroke="#DCE7DF"/>
+<text x="722" y="214" text-anchor="start" font-size="14" font-weight="400" fill="#18342D">全部</text>
+<text x="831" y="179" text-anchor="start" font-size="13" font-weight="700" fill="#52685F">付款人</text>
+<rect x="831" y="189" width="112" height="39" rx="7" fill="#FFFFFF" stroke="#DCE7DF"/>
+<text x="843" y="214" text-anchor="start" font-size="14" font-weight="400" fill="#18342D">全部</text>
+<rect x="953" y="191" width="115" height="36" rx="8" fill="#11634E" stroke="none"/>
+<text x="1010.5" y="214" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">查询</text>
+<rect x="245" y="253" width="826" height="33" rx="6" fill="#F3F6F3" stroke="none"/>
+<text x="257" y="275" text-anchor="start" font-size="12" font-weight="700" fill="#52685F">记录</text>
+<text x="477" y="275" text-anchor="start" font-size="12" font-weight="700" fill="#52685F">日期</text>
+<text x="604" y="275" text-anchor="start" font-size="12" font-weight="700" fill="#52685F">付款人</text>
+<text x="738" y="275" text-anchor="start" font-size="12" font-weight="700" fill="#52685F">金额</text>
+<text x="851" y="275" text-anchor="start" font-size="12" font-weight="700" fill="#52685F">状态</text>
+<text x="987" y="275" text-anchor="start" font-size="12" font-weight="700" fill="#52685F">详情</text>
+<rect x="245" y="335" width="826" height="1" rx="0" fill="#DCE7DF" stroke="none"/>
+<text x="257" y="315.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">公共用品</text>
+<text x="477" y="315.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">10-24</text>
+<text x="604" y="315.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">冯一水</text>
+<text x="738" y="315.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">¥128.00</text>
+<rect x="851" y="298.5" width="57" height="24" rx="12" fill="#FFF0D8" stroke="none"/>
+<text x="860" y="314.5" text-anchor="start" font-size="12" font-weight="700" fill="#855312">待审核</text>
+<text x="987" y="315.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">查看</text>
+<rect x="245" y="384" width="826" height="1" rx="0" fill="#DCE7DF" stroke="none"/>
+<text x="257" y="364.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">本月网费</text>
+<text x="477" y="364.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">10-20</text>
+<text x="604" y="364.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">孙浩原</text>
+<text x="738" y="364.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">¥120.00</text>
+<rect x="851" y="347.5" width="57" height="24" rx="12" fill="#E2F2E9" stroke="none"/>
+<text x="860" y="363.5" text-anchor="start" font-size="12" font-weight="700" fill="#11634E">已审核</text>
+<text x="987" y="364.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">查看</text>
+<rect x="245" y="433" width="826" height="1" rx="0" fill="#DCE7DF" stroke="none"/>
+<text x="257" y="413.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">宿舍水费</text>
+<text x="477" y="413.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">10-18</text>
+<text x="604" y="413.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">孙浩原</text>
+<text x="738" y="413.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">¥72.00</text>
+<rect x="851" y="396.5" width="57" height="24" rx="12" fill="#FBE9E5" stroke="none"/>
+<text x="860" y="412.5" text-anchor="start" font-size="12" font-weight="700" fill="#9B423A">已驳回</text>
+<text x="987" y="413.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">查看</text>
+<rect x="245" y="482" width="826" height="1" rx="0" fill="#DCE7DF" stroke="none"/>
+<text x="257" y="462.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">公共清洁费</text>
+<text x="477" y="462.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">10-15</text>
+<text x="604" y="462.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">林小雨</text>
+<text x="738" y="462.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">¥40.00</text>
+<rect x="851" y="445.5" width="57" height="24" rx="12" fill="#EDF1EF" stroke="none"/>
+<text x="860" y="461.5" text-anchor="start" font-size="12" font-weight="700" fill="#52685F">已作废</text>
+<text x="987" y="462.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">查看</text>
+<rect x="245" y="531" width="826" height="1" rx="0" fill="#DCE7DF" stroke="none"/>
+<text x="257" y="511.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">饮用水补充</text>
+<text x="477" y="511.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">10-12</text>
+<text x="604" y="511.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">冯一水</text>
+<text x="738" y="511.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">¥36.00</text>
+<rect x="851" y="494.5" width="44" height="24" rx="12" fill="#EDF1EF" stroke="none"/>
+<text x="860" y="510.5" text-anchor="start" font-size="12" font-weight="700" fill="#52685F">草稿</text>
+<text x="987" y="511.5" text-anchor="start" font-size="13" font-weight="400" fill="#18342D">编辑</text>
+<text x="246" y="573" text-anchor="start" font-size="13" font-weight="400" fill="#52685F">第 1 页  ·  共 2 页</text>
+<rect x="958" y="551" width="111" height="36" rx="8" fill="#FFFFFF" stroke="#DCE7DF"/>
+<text x="1013.5" y="574" text-anchor="middle" font-size="13" font-weight="700" fill="#11634E">下一页</text>
+</g>
+</svg>

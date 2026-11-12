@@ -1,25 +1,38 @@
 @startuml
-title UML组件图（AI 初稿）
-component "浏览器" as UI
-component "账号" as A
-component "账本" as B
-component "收支记录" as R
-component "统计与预算" as P
-component "结算" as S
-component "操作日志" as L
-database "关系数据库" as DB
-UI --> A
-UI --> B
-UI --> R
-UI --> P
-UI --> S
-UI --> L
-P --> R
-S --> R
-R --> L
-L --> DB
-B --> DB
-R --> DB
-S --> DB
+skinparam defaultFontName Microsoft YaHei
+skinparam defaultFontSize 15
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam ArrowColor #365C5C
+skinparam titleFontColor #142C2B
+skinparam packageStyle rectangle
+skinparam roundcorner 10
+title UML 组件图｜系统模块与依赖
+skinparam componentStyle rectangle
+skinparam componentBackgroundColor #EBF5F1
+component "响应式网页" as UI
+component "HTTP API / 会话与权限校验" as API
+package "模块化单体" as APP {
+  component "账号与平台管理" as A
+  component "账本与成员" as B
+  component "收支记录与类别" as R
+  component "查询、统计与预算" as P
+  component "结算与历史快照" as S
+  component "操作日志" as L
+  component "清理与备份任务" as J
+}
+database "PostgreSQL\n各模块通过仓储读写" as DB
+UI --> API : HTTPS / JSON
+API --> APP : 分派业务请求
+A ..> B : 所有者授权范围
+R ..> B : 成员权限 / 写入门闩
+S ..> B : 获取 / 解除结算锁
+P ..> R : 已审核统计投影
+S ..> R : 已审核结算投影
+A ..> L : 审计查看与拒绝
+B ..> L : 追加成员操作
+R ..> L : 追加记录变更
+S ..> L : 追加结算事件
+APP --> DB : 仓储／事务
+J ..> L : 日志保留期
 @enduml
-

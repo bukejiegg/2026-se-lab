@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1120" height="690" viewBox="0 0 1120 690">
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<rect x="0" y="0" width="1120" height="690" rx="0" fill="#F3F6F3" stroke="none"/>
+<rect x="0" y="0" width="1120" height="64" rx="0" fill="#153B31" stroke="none"/>
+<text x="29" y="41" text-anchor="start" font-size="22" font-weight="700" fill="#FFFFFF">合账</text>
+<rect x="295" y="125" width="530" height="419" rx="12" fill="#FFFFFF" stroke="#DCE7DF"/>
+<text x="329" y="191" text-anchor="start" font-size="29" font-weight="700" fill="#18342D">确认加入账本</text>
+<text x="329" y="235" text-anchor="start" font-size="19" font-weight="700" fill="#18342D">四人宿舍账本</text>
+<rect x="329" y="252" width="70" height="24" rx="12" fill="#EDF1EF" stroke="none"/>
+<text x="338" y="268" text-anchor="start" font-size="12" font-weight="700" fill="#52685F">普通成员</text>
+<text x="329" y="326" text-anchor="start" font-size="14" font-weight="400" fill="#52685F">邀请人：孙浩原   /   邀请还可加入 8 人</text>
+<text x="329" y="363" text-anchor="start" font-size="14" font-weight="400" fill="#52685F">确认后可查看账本并提交自己的收支记录。</text>
+<rect x="329" y="438" width="104" height="36" rx="8" fill="#FFFFFF" stroke="#DCE7DF"/>
+<text x="381.0" y="461" text-anchor="middle" font-size="13" font-weight="700" fill="#11634E">取消</text>
+<rect x="645" y="438" width="145" height="36" rx="8" fill="#11634E" stroke="none"/>
+<text x="717.5" y="461" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">确认加入</text>
+</g>
+</svg>
